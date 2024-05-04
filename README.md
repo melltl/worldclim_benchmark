@@ -1,2 +1,1 @@
-# worldclim_database
-dados do worldclim
+Para o propósito de realizar um benchmark, os dados do banco de dados WorldClim foram lidos e transformados utilizando duas interfaces distintas: Google Colab e Databricks. Utilizamos o PySpark para a leitura dos arquivos e a biblioteca Raster para a conversão dos dados para o formato CSV. O critério de benchmark adotado foi o tempo necessário para o PySpark ler os arquivos.
